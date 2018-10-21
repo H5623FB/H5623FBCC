@@ -1,0 +1,373 @@
+.container {
+  display: grid;
+  justify-items: center;
+  overflow: auto;
+  /* align-items: start; */
+
+  /* justify-content: strech; */
+  /* flex-direction: column; */
+  /* grid-auto-flow: auto;
+  text-align: center;
+  justify-items: center;
+  justify-content: center; */
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 2px;
+  grid-column-gap: 10px;
+  grid-auto-flow: column;
+  padding: 5px;
+  font-size: 13px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: min-content;
+  grid-row-start: 1;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  width: auto;
+  font-weight: bold;
+  /* position: sticky;
+  top: 0;
+  padding: 5px; */
+  /* position: fixed;
+  left: 0;
+  right: 0;
+  top: 10; */
+}
+
+.items {
+  display: grid;
+  padding: 1px;
+  align-items: stretch;
+  text-align: center;
+  font-weight: bold;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin: 0;
+  width: 12rem;
+  /* cursor: -webkit-grab; cursor: grab; */
+}
+.h_items {
+  /* position: fixed; */
+  /* align-self: flex-end; */
+  top: 2.5rem;
+  width: 12rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.par {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  margin: 0;
+  width: 2.3rem;
+}
+.h_par {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 2.3rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.opening {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  margin: 0;
+  width: 3rem;
+}
+.h_opening {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 3rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+
+.delivered {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 4;
+  grid-row-start: 2;
+  margin: 0;
+  width: 4.5rem;
+}
+.h_delivered {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 4.5rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 12px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.transfers {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 5;
+  grid-row-start: 2;
+  margin: 0;
+  width: 4.5rem;
+}
+.h_transfers {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 4.5rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.wastage {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 6;
+  grid-row-start: 2;
+  margin: 0;
+  width: 4.3rem;
+}
+.h_wastage {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 4.3rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.sale {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 7;
+  grid-row-start: 2;
+  margin: 0;
+  width: 2.8rem;
+}
+.h_sale {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 2.8rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.closing {
+  display: grid;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  grid-column-start: 8;
+  grid-row-start: 2;
+  margin: 0;
+  width: 3.5rem;
+}
+.h_closing {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 3.5rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.difference {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 9;
+  grid-row-start: 2;
+  margin: 0;
+  color: red;
+  width: 2.7rem;
+}
+.h_difference {
+  /* position: fixed;
+  align-self: flex-end; */
+  top: 2.5rem;
+  width: 2.7rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  font-size: 13px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+.inpute {
+  display: grid;
+  text-align: center;
+  grid-column-start: 10;
+  padding: 8px;
+  grid-row-start: 2;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  grid-row-gap: 0.05rem;
+}
+.h_inpute {
+  /* position: fixed; */
+  /* align-self: flex-end; */
+  top: 2.5rem;
+  margin-bottom: 0.7rem;
+  width: 4rem;
+  color: black;
+  background-color: rgb(198, 198, 198);
+  height: 1.6rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  grid-row-start: 1;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.comments {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-column-start: 11;
+  grid-row-start: 2;
+  margin: 0;
+}
+.submitstyle {
+  display: grid;
+  padding: 15px;
+  text-align: center;
+  grid-column-start: 12;
+  grid-row-start: 2;
+  margin: 0;
+}
+.acceptALLreq {
+  display: grid;
+  padding: 15px;
+  text-align: center;
+  grid-column-start: 7;
+  grid-row-start: 7;
+  margin: 0;
+}
+.rowstyle {
+  display: grid;
+  margin-top: 0.28rem;
+  margin-bottom: 0.1rem;
+  border-radius: 8px;
+  border: 1.2px solid rgb(244, 244, 244);
+  /* margin-top:0.12rem;
+  margin-bottom:1.24rem; */
+  text-align: right;
+  background-color: rgb(248, 248, 248);
+}
+
+.home {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.print {
+  /* display: grid; */
+  justify-content: left;
+  grid-column-start: 13;
+  grid-row-start: 1;
+  margin: 0;
+}
+
+/* https://getbootstrap.com/docs/4.0/content/tables/  
+ https://itnext.io/building-a-dynamic-controlled-form-in-react-together-794a44ee552c
+ */
+
+/* height: 400px; */
+/* grid-row-gap: 10em; */
+/* grid-column-gap: 1em; */
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* align-content: space-evenly; */
+/* grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto; */
+/* justify-content: space-evenly; */

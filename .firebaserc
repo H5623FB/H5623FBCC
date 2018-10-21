@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "timesheet-4a3db",
+    "staging": "fbcc-e51e7"
+  }
+}
